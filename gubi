@@ -1,0 +1,36 @@
+[12.03.2026 1:12] https://t.me/vkysdela Кейтеринг: gubi-universe
+
+book
+   gubi-book.pdf
+
+website
+   index.html
+   style.css
+   script.js
+
+illustrations
+   page01.png
+   page02.png
+
+ai
+   gubi-chat
+[12.03.2026 1:16] https://t.me/vkysdela Кейтеринг: gubi-universe
+│
+├── book
+│   └── gubi-book.pdf
+│
+├── website
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── illustrations
+│   ├── page01.png
+│   ├── page02.png
+│   └── ...
+│
+├── ai
+│   └── gubi-chat
+│
+└── animation
+    └── cartoon
