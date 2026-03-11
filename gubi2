@@ -1,0 +1,70 @@
+[12.03.2026 1:12] https://t.me/vkysdela Кейтеринг: gubi-universe
+
+book
+   gubi-book.pdf
+
+website
+   index.html
+   style.css
+   script.js
+
+illustrations
+   page01.png
+   page02.png
+
+ai
+   gubi-chat
+[12.03.2026 1:16] https://t.me/vkysdela Кейтеринг: gubi-universe
+│
+├── book
+│   └── gubi-book.pdf
+│
+├── website
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── illustrations
+│   ├── page01.png
+│   ├── page02.png
+│   └── ...
+│
+├── ai
+│   └── gubi-chat
+│
+└── animation
+    └── cartoon
+[12.03.2026 1:18] https://t.me/vkysdela Кейтеринг: <!DOCTYPE html>
+<html>
+<head>
+<title>Gubi Universe</title>
+</head>
+
+<body>
+
+<h1>Губи — свет внутри тебя</h1>
+
+<p>Губи — это пять цветов, которые живут внутри каждого ребёнка.</p>
+
+<button onclick="createStory()">Создать историю</button>
+
+<p id="story"></p>
+
+<script>
+function createStory() {
+
+const stories = [
+"Сегодня красный цвет Губи помог тебе быть смелым.",
+"Сегодня жёлтый цвет Губи подарил тебе радость.",
+"Сегодня зелёный цвет Губи помог тебе сделать добро.",
+"Сегодня синий цвет Губи подарил тебе мечту."
+]
+
+let random = stories[Math.floor(Math.random()*stories.length)]
+document.getElementById("story").innerText = random
+
+}
+</script>
+
+</body>
+</html>
