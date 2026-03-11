@@ -14,3 +14,20 @@ gubi-universe
 │   └── gubi-story.txt     ← весь текст книги разбитый по страницам
 │
 └── README.md              ← описание проекта и бренда
+gubi-universe
+│
+├── book
+│   ├── gubi-book.pdf
+│   └── 50–60-page-word-version.txt
+│
+├── illustrations
+│   ├── page01.png
+│   ├── page02.png
+│   └── ... (картинки)
+│
+├── website
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── README.md
